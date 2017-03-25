@@ -1,0 +1,210 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">@color/colorButtonNormal</item>
+    </style>
+
+    <style name="background_color">
+        <!-- Background color of the app -->
+        <item name="android:background">@color/background_color</item>
+    </style>
+
+    <style name="score_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item tools:targetApi="16" name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/score_label_padding</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/team_color</item>
+        <item name="android:textSize">@dimen/team_size</item>
+    </style>
+
+    <style name="mainLayout1">
+        <item name="android:baselineAligned">false</item>
+        <item name="android:paddingTop">@dimen/mainLayout1_paddingTop</item>
+    </style>
+
+    <style name="team_a_field">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/team_a_margin</item>
+        <item tools:targetApi="16" name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/team_color</item>
+        <item name="android:textSize">@dimen/team_size</item>
+    </style>
+
+    <style name="team_a_score">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item tools:targetApi="16" name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/team_score_color</item>
+        <item name="android:textSize">@dimen/score_size</item>
+    </style>
+
+    <style name="view1">
+        <item name="android:layout_marginTop">@dimen/view1_marginTop</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="team_b_field">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/team_b_margin</item>
+        <item tools:targetApi="16" name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/team_color</item>
+        <item name="android:textSize">@dimen/team_size</item>
+    </style>
+
+    <style name="team_b_score">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item tools:targetApi="16" name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/team_score_color</item>
+        <item name="android:textSize">@dimen/score_size</item>
+    </style>
+
+    <style name="set_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item tools:targetApi="16" name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/set_label_padding</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/team_color</item>
+        <item name="android:textSize">@dimen/team_size</item>
+    </style>
+
+    <style name="mainLayout2">
+        <item name="android:baselineAligned">false</item>
+    </style>
+
+    <style name="team_a_set">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item tools:targetApi="16" name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/team_score_color</item>
+        <item name="android:textSize">@dimen/set_score_size</item>
+    </style>
+
+    <style name="button1">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/plus_button_marginBottom</item>
+        <item tools:targetApi="17" name="android:layout_marginEnd">@dimen/plus_button_marginRight</item>
+        <item name="android:layout_marginLeft">@dimen/plus_button_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/plus_button_marginRight</item>
+        <item tools:targetApi="17" name="android:layout_marginStart">@dimen/plus_button_marginLeft</item>
+        <item name="android:layout_marginTop">@dimen/plus_button_marginTop</item>
+        <item name="android:textColor">@color/button_textColor</item>
+    </style>
+
+    <style name="view2">
+        <item name="android:layout_marginTop">@dimen/view2_marginTop</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="team_b_set">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item tools:targetApi="16" name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/team_score_color</item>
+        <item name="android:textSize">@dimen/set_score_size</item>
+    </style>
+
+    <style name="button2">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/plus_button_marginBottom</item>
+        <item tools:targetApi="17" name="android:layout_marginEnd">@dimen/plus_button_marginRight</item>
+        <item name="android:layout_marginLeft">@dimen/plus_button_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/plus_button_marginRight</item>
+        <item tools:targetApi="17" name="android:layout_marginStart">@dimen/plus_button_marginLeft</item>
+        <item name="android:layout_marginTop">@dimen/plus_button_marginTop</item>
+        <item name="android:textColor">@color/button_textColor</item>
+    </style>
+
+    <style name="fault_label">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item tools:targetApi="16" name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/fault_label_padding</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/team_color</item>
+        <item name="android:textSize">@dimen/team_size</item>
+    </style>
+
+    <style name="mainLayout3">
+        <item name="android:baselineAligned">false</item>
+    </style>
+
+    <style name="team_a_fault">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item tools:targetApi="16" name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/team_score_color</item>
+        <item name="android:textSize">@dimen/fault_score_size</item>
+    </style>
+
+    <style name="button3">
+    <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/plus_button_marginBottom</item>
+        <item tools:targetApi="17" name="android:layout_marginEnd">@dimen/plus_button_marginRight</item>
+        <item name="android:layout_marginLeft">@dimen/plus_button_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/plus_button_marginRight</item>
+        <item tools:targetApi="17" name="android:layout_marginStart">@dimen/plus_button_marginLeft</item>
+        <item name="android:layout_marginTop">@dimen/plus_button_marginTop</item>
+        <item name="android:textColor">@color/button_textColor</item>
+    </style>
+
+    <style name="view3">
+        <item name="android:layout_marginTop">@dimen/view3_marginTop</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="team_b_fault">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item tools:targetApi="16" name="android:fontFamily">sans-serif-light</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/team_score_color</item>
+        <item name="android:textSize">@dimen/fault_score_size</item>
+    </style>
+
+    <style name="button4">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/plus_button_marginBottom</item>
+        <item tools:targetApi="17" name="android:layout_marginEnd">@dimen/plus_button_marginRight</item>
+        <item name="android:layout_marginLeft">@dimen/plus_button_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/plus_button_marginRight</item>
+        <item tools:targetApi="17" name="android:layout_marginStart">@dimen/plus_button_marginLeft</item>
+        <item name="android:layout_marginTop">@dimen/plus_button_marginTop</item>
+        <item name="android:textColor">@color/button_textColor</item>
+    </style>
+
+    <style name="resetButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginBottom">@dimen/reset_button_marginBottom</item>
+        <item tools:targetApi="17" name="android:layout_marginEnd">@dimen/reset_button_marginRight</item>
+        <item name="android:layout_marginLeft">@dimen/reset_button_marginLeft</item>
+        <item name="android:layout_marginRight">@dimen/reset_button_marginRight</item>
+        <item tools:targetApi="17" name="android:layout_marginStart">@dimen/reset_button_marginLeft</item>
+        <item name="android:textColor">@color/button_textColor</item>
+    </style>
+</resources>

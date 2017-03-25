@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Table Tennis Counter</string>
+    <string name="teamA_name">Team A</string>
+    <string name="teamB_name">Team B</string>
+    <string name="score_label">Points</string>
+    <string name="set_label">Set</string>
+    <string name="fault_label">Fouls</string>
+    <string name="team_score">0</string>
+    <string name="team_point">+1 Point</string>
+    <string name="team_fault">+1 Foul</string>
+    <string name="reset_text">Reset</string>
+    <string name="roundWinnerA">The winner of this round is Team A!</string>
+    <string name="roundWinnerB">The winner of this round is Team B!</string>
+    <string name="tieBreak">The winner of this round will be the first to reach 12 points.</string>
+    <string name="victoryA">3 sets! Team A won the match!</string>
+    <string name="victoryB">3 sets! Team B won the match!</string>
+</resources>
